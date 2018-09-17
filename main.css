@@ -636,6 +636,7 @@ input[type=submit]:hover {
 	background color: #f2f5fc;
 	margin-top: 1%;
 	margin-left: 3%;
+	width: auto;
 }
 
 #contactTitle {
