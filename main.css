@@ -636,7 +636,9 @@ input[type=submit]:hover {
 	background color: #f2f5fc;
 	margin-top: 1%;
 	margin-left: 3%;
-	width: auto;
+	width:50%;
+	height: 100%;
+	float:left;
 }
 
 #contactTitle {
@@ -681,12 +683,6 @@ input[type=submit]:hover {
   	-webkit-transform: scale(1.02,1.02); /* Safari */
   	transform: scale(1.02,1.02); /* Standard syntax */
   	
-}
-
-#contact {
-	width:55%;
-	height: 100%;
-	float:left;
 }
 
 #contactFooter {
