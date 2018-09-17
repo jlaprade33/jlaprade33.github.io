@@ -1,0 +1,87 @@
+<!--Contact section-->
+<!DOCTYPE html>
+<html>
+<head>
+  	<link rel="stylesheet" href="jlaprade.css">
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+  	<title>jlaprade </title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+	<!-------Navigation bar------->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+       			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          			<span class="icon-bar"></span>
+          			<span class="icon-bar"></span>
+          			<span class="icon-bar"></span>
+          			<span class="icon-bar"></span>                           
+      			</button>
+      			
+    		</div>
+    		<div>
+      			<div class="collapse navbar-collapse" id="myNavbar">
+        			<ul class="nav navbar-nav">
+          				<li><a href="jlaprade.html" id="home">Home</a></li>
+        			</ul>
+      			</div>
+    		</div> 
+  		</div>
+	</nav>
+
+	<!---contact email form--->
+	<div id="introContact" class="container-fluid">
+		<div class="col-md-12" id="contact">
+			<h2 id="contactTitle">To contact me, fill out the form below or... </h2>
+			<form action="/action_page.php">
+				<label for="fName" id="names">First Name<br/></label>
+					<input type="text" id="fName" name="firstName" placeholder="Enter your first name">
+				<label for="lName" id="names">Last Name</label>
+					<input type="text" id="lName" name="firstName" placeholder="Enter your last name">
+				<label for="city" id="names">City</label>
+					<select id="city" name="city">
+						<option value="hodor">-select-</option>
+						<option value="Austin">Austin</option>
+						<option value="Boulder">Boulder</option>
+						<option value="Chicago">Chicago</option>
+						<option value="Los Angeles">Los Angeles</option>
+						<option value="Minneapolis">Minneapolis</option>
+						<option value="New York City">New York City</option>
+						<option value="Palo Alto">Palo Alto</option>
+						<option value="San Francisco">San Francisco</option>
+						<option value="Other">Other</option>
+					</select>
+						<label for="subject" id="names">Subject</label>
+						<textarea id="subject" name="subject" placeholder="Write about it here..." style="height:200px"></textarea>
+						<input type="submit" value="Submit">
+			</form>
+		</div>
+					
+		<!---LinkedIn--->
+		<div class="col-md-12" id="linkedinLink">
+			<h4> Click to check out my LinkedIn page<h4>
+				<a href="https://www.linkedin.com/in/lapradejeff"> 
+					<img src="LinkedIn.jpg" id="linkedin">
+				</a>
+		</div>
+	</div>
+			
+	<!--------extras-------->
+	<div id="footer" class="container-fluid">
+		<h6 id="contactFooter"><br/>Last page update: September 3rd, 2018</h6>
+  	</div>
+
+				
+		
+	
+	
+</body>
+
+</html>
